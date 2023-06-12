@@ -1,0 +1,14 @@
+version: '3'
+services:
+  flask:
+    build: ./app
+    container_name: flask
+    environment:
+      - FLASK_ENV=development
+      - PYTHONUNBUFFERED=True
+    restart: on-failure
+    volumes:
+      - ./app:/app
+    ports:
+      - "8080:8080"
+    command: sh run.sh

@@ -1,0 +1,1 @@
+INSERT INTO logs_reqs (timestamp, in_req, predict) VALUES (?, ?, ?)

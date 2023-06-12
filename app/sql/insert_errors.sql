@@ -1,0 +1,1 @@
+INSERT INTO logs_errors (timestamp, type_error, error) VALUES (?, ?, ?)

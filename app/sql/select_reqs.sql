@@ -1,0 +1,3 @@
+SELECT * FROM logs_reqs
+ORDER BY id DESC
+LIMIT 10
